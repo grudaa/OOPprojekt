@@ -1,4 +1,4 @@
-![KitcheSync logo](./KitchenSync.png)
+![KitcheSync logo](./imgs/KitchenSync.png)
 
 # KitchenSync
 
