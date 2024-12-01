@@ -1,10 +1,5 @@
 ![KitcheSync logo](./KitchenSync.png)
 
-![Static Badge](https://img.shields.io/badge/:badgeContent)
-![Static Badge](https://img.shields.io/badge/:badgeContent)
-![Static Badge](https://img.shields.io/badge/:badgeContent)
-
-
 # KitchenSync
 
 ### Ovaj program predstavlja digitalni sustav za upravljanje zalihama namirnica u restoranskoj kuhinji
