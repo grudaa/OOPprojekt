@@ -11,9 +11,6 @@ public:
     // konstruktor
     Item(std::string name = DEFAULT_NAME, std::string unit = DEFAULT_UNIT, int quantity = DEFAULT_QUANTITY, int minQuantity = DEFAULT_MIN_QUANTITY);
 
-    // destruktor
-    ~Item();
-
     // geteri
     std::string getName();
     std::string getUnit();
@@ -23,8 +20,8 @@ public:
     // seteri
     void setName(std::string name);
     void setUnit(std::string unit);
-    void setQuantity(int quantity);
-    void setMinQuantity(int minQuantity);
+    bool setQuantity(int quantity);
+    bool setMinQuantity(int minQuantity);
 
     // info
     void info();
