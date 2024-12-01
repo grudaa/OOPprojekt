@@ -1,0 +1,23 @@
+rastavit projekt na djelove za sad imam 5 klasa
+
+klase za namirnice, jelo, meni, zalihu i za upozorenje
+
+namirnice (items)
+namirnice bi unutar sebe imale: ime namirnice, jedinicu mjere, kolko ima na zalisi i minimalno kolko smije bit
+
+jelo (dish)
+jelo bi imalo: naziv jela i namirnice koje su potrebne koja je povezana na namirnice
+
+meni (menu)
+meni bi imo listu svih jela na meniju.. mozda spremat u vektor?
+
+zaliha (inventory)
+zaliha bi imala: poveznicu na namirnice
+
+upozorenje (notify)
+upozorenje: metode za ispis upozrenja u slucaju niskih zaliha
+
+
+krenut od namirnica pa dalje dodavat klase redom nekim, sam pripazit na bodovanje da imam sve 
+
+za sad mislim da mogu slozit ishod 1 i 2 i mozda dio ish 3, ostalo nismo radili jos al kad slozim ovo budem pogeldo i to unaprijed kak slozit
