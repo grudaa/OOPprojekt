@@ -1,7 +1,7 @@
 #include "item.h"
 #include <iostream>
 
-// Constructor
+// konstruktor
 Item::Item(std::string name, std::string unit, int quantity, int minQuantity)
 {
     setName(name);
@@ -70,5 +70,6 @@ void Item::info()
     std::cout << "Item: " << name << std::endl;
     std::cout << "Unit: " << unit << std::endl;
     std::cout << "Quantity: " << quantity << std::endl;
-    std::cout << "Minimum Quantity: " << minQuantity << std::endl;
+    std::cout << "Minimum Quantity: " << minQuantity << "\n"
+              << std::endl;
 }
