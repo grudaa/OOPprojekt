@@ -1,6 +1,5 @@
 #include <iostream>
 #include <string>
-#include "item.h"
 #include "dish.h"
 
 int main()
@@ -10,7 +9,7 @@ int main()
     Item flour("Flour", "kg", 5, 1);
     Item sugar;
 
-    egg.info();
+    egg.setQuantity(100).info();
     milk.info();
     flour.info();
     sugar.info();

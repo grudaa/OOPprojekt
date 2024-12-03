@@ -1,16 +1,18 @@
 #pragma once
-#include <string>
 #include <map>
 #include <list>
 #include <iostream>
+#include <vector>
+#include "item.h"
 
 class Dish
 {
 public:
     Dish(std::string name = "dish");
 
+    //setteri
+
 private:
     std::string name;
-    // koristit mape s listom te za svako jelo spremiti listu stringova koja predstavlja sastojke
-    std::map<std::string, std::list<std::string>> ingredients;
+    std::map<std::string, Item> ingredients;
 };
