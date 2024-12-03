@@ -18,10 +18,10 @@ public:
     int getMinQuantity();
 
     // seteri
-    void setName(std::string name);
-    void setUnit(std::string unit);
-    bool setQuantity(int quantity);
-    bool setMinQuantity(int minQuantity);
+    Item &setName(std::string name);
+    Item &setUnit(std::string unit);
+    Item &setQuantity(int quantity);
+    Item &setMinQuantity(int minQuantity);
 
     // info
     void info();

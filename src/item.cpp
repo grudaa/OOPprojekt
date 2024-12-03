@@ -32,36 +32,38 @@ int Item::getMinQuantity()
 }
 
 // seteri
-void Item::setName(std::string name)
+Item &Item::setName(std::string name)
 {
     this->name = name;
+    return *this;
 }
 
-void Item::setUnit(std::string unit)
+Item &Item::setUnit(std::string unit)
 {
     this->unit = unit;
+    return *this;
 }
 
-bool Item::setQuantity(int quantity)
+Item &Item::setQuantity(int quantity)
 {
     if (quantity < 0)
     {
-        std::cout << "Invalid value for quantity" << std::endl;
-        return false;
+        std::cout << "Invalid value for min quantity" << std::endl;
+        return *this;
     }
     this->quantity = quantity;
-    return true;
+    return *this;
 }
 
-bool Item::setMinQuantity(int minQuantity)
+Item &Item::setMinQuantity(int minQuantity)
 {
     if (minQuantity < 0)
     {
         std::cout << "Invalid value for min quantity" << std::endl;
-        return false;
+        return *this;
     }
     this->minQuantity = minQuantity;
-    return true;
+    return *this;
 }
 
 // info
